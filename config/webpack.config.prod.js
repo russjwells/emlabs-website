@@ -136,7 +136,6 @@ module.exports = {
       },
       {
         test: /\.(scss|sass)$/,
-        include: paths.appSrc,
         loader: ExtractTextPlugin.extract('style', 'css?importLoaders=1!postcss')
       }
       // The notation here is somewhat confusing.
