@@ -3,25 +3,92 @@
   width: 100%;
   margin: 0;
 }
+h1{
+  margin: 0px 0px;
+}
 .Site{
   display: flex;
   flex-direction: column;
 }
+
 .Header{
+  flex-grow: 0;
+  flex-shrink: 0;
   height: 120px;
   background-color: #0F204D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  line-height: 120px;
+}
+nav{
+  align-self: flex-end;
+}
+a.MenuItem{
+  height: 100%;
+}
+.MenuItem{
+  padding: 0 20px;
+  height: 100%;
 }
 .MenuItem a:link {
   color: #fff
 }
+.MenuItem:hover{
+  background-color: #FFF;
+  color: blue;
+}
 .Content{
-  flex-grow: 1
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+.Section{
+  flex-basis: 800px;
+  min-height: 800px;
+  width: 100%;
+  color: #616161;
 }
 .Footer{
   height: 120px;
   background-color: #0F204D;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  line-height: 120px;
 }
 .Home{
   background-color: #FFFFF7;
   flex-grow: 1;
+}
+.Landing{
+  display: flex;
+}
+.ContactForm{
+  display: flex;
+}
+.Form{
+  margin: auto;
+}
+.Headline{
+  color: #FFF;
+  line-height: 54px;
+  font-size: 42px;
+  margin: auto;
+  width: 50%;
+}
+a:link{
+  color: #fff;
+}
+a:hover{
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+a:active {
+  color: #fff;
 }

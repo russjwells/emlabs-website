@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class Lab extends Component {
   render() {
     return (
-      <div>
+      <div className="Lab Section">
       <p>The laboratory is equipped with three transmission electron microscope (TEM) models:
 Philips 201 TEM
 Philips CM10 TEM
