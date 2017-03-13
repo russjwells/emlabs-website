@@ -12,14 +12,15 @@ class ContactForm extends Component {
       <div className="ContactForm Section" style={bgStyle}>
         <div className="Form">
           <form>
-            <h2>Interested in our services?</h2>
+            <h2>Interested in our Electron Microscopy services?</h2>
+            <p>Your Name:</p><input type="text"/>
             <p>Your Email:</p><input type="text"/>
+            <p>Phone Number:</p><input type="text"/>
             <p>Your Message:</p><textarea></textarea>
             <br/>
             <input type="submit" value="Send"/>
           </form>
         </div>
-
       </div>
     );
   }
